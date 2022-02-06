@@ -65,8 +65,8 @@ router.post('/', (req, res) => {
       if (req.body.tagIds.length) {
         const productTagIdArr = req.body.tagIds.map((tagId) => {
           return {
-            productId: product.id,
-            tagId: tagId,
+            product_id: product.id,
+            tag_id: tagId,
           };
         });
         return ProductTag.bulkCreate(productTagIdArr);
