@@ -1,15 +1,14 @@
 // import important parts of sequelize library
 const { Model, DataTypes } = require('sequelize');
-// import our database connection from config.js
+// import database connection from config.js
 const sequelize = require('../config/connection');
 
 // Initialize Product model (table) by extending off Sequelize's Model class
 class Product extends Model {}
 
-// set up fields and rules for Product model
+// sets up fields and rules for the Product model
 Product.init(
   {
-    // define columns
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
@@ -20,6 +19,8 @@ Product.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    // sets type to FLOAT which is a DECIMAL variant
+    // also adds decimal validator
     price: {
       type: DataTypes.FLOAT,
       allowNull: false,
@@ -27,7 +28,8 @@ Product.init(
         isDecimal: true,
       },
     },
-    // set default value of 10
+    // sets default value of 10
+    // adds numeric validator
     stock: {
       type: DataTypes.INTEGER,
       allowNull: false,

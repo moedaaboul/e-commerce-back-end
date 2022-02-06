@@ -1,7 +1,9 @@
+// connect to mysql local instance
 require('dotenv').config();
 
 const Sequelize = require('sequelize');
 
+// hide variables using the dotenv npm package a
 const sequelize = process.env.JAWSDB_URL
   ? new Sequelize(process.env.JAWSDB_URL)
   : new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PW, {
