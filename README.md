@@ -15,7 +15,6 @@ The task was to develop this application by building on and modifying starter co
 - [Usage](#usage)
 - [Directory Structure](#directory-structure)
 - [Technologies Used](#technologies-used)
-- [Schema](#schema)
 - [Setup](#setup)
 - [Demo](#demo)
 - [Acknowledgements](#acknowledgements)
@@ -49,6 +48,7 @@ The application will then be invoked by using the following command:
 
 ```md
 .
+├── assets/
 ├── config/
 ├── db/
 ├── models/
@@ -85,7 +85,7 @@ The application will then be invoked by using the following command:
 
 ## Demo
 
-[![Watch the video](./assets/my-video-player.png)](https://drive.google.com/file/d/1RoJ_t8hFmkak7h2BDBvQsZf7Kkvo2wDw/view)
+[![Watch the video](./assets/my-video-player.png)](https://watch.screencastify.com/v/J1ARaNg5oh2HtJBqz7RX)
 
 ## Acknowledgements
 
