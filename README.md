@@ -52,8 +52,17 @@ The application will then be invoked by using the following command:
 ├── config/
 ├── db/
 ├── models/
-├── routes/
+│ ├── Category.js
+│ ├── Product.js
+│ ├── Tag.js
+│ ├── ProdcutTag.js
+│ └── index.js
+├── controllers/
 │ ├── api/
+| | ├── category-routes.js
+| | ├── tag-routes.js
+| | ├── product-routes.js
+| | └── index.js
 │ └── index.js
 ├── seeds/
 ├── .env
