@@ -71,15 +71,11 @@ The application will then be invoked by using the following command:
 - mysql2
 - dotenv
 
-## Schema
-
-![Schema](./assets/schema-image.png)
-
 ## Setup
 
 - Nodejs must be installed
 - MySQL must be installed
-- Insomnia must be installed to test routes
+- Insomnia is recommended to test routes
 - MySQL Workbench (MySQL GUI recommended but not required)
 - Text editor (VS Code recommended)
 
