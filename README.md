@@ -4,9 +4,9 @@
 
 ## Description
 
-An Node.js back end for an e-commerce site. App is configured using a working Express.js API which utilises Sequelize to interact with the MySQL database.
+A Node.js back end for an e-commerce site. App is configured using a working Express.js API which utilises Sequelize to interact with the MySQL database.
 
-The task was to develop this application by building and debugging starter code, and providing a walkthrough video that demonstrates the functionality and test various routes using Insomnia.
+The task was to develop this application by building on and modifying starter code, and provide a walkthrough that demonstrates the functionality by also testing various routes using Insomnia.
 
 ## Table of Contents
 
